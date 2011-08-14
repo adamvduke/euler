@@ -5,8 +5,7 @@
 # The sum of these multiples is 23.
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
-limit = 1000
-range = 0..(limit -1)
+range = 1..(999)
 answer = 0
 
 range.each do |value|
